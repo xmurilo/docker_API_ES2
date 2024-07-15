@@ -1,12 +1,10 @@
 # Prints dos códigos Dockerfile e docker-compose;
 ## Código Dockerfile
 
-![alt text](![image](https://github.com/user-attachments/assets/7f511855-26fc-4df2-807c-32121e7e2534)
-)
+![alt text](./images/dockerfile.png)
 
 ## Código docker-compose
-![alt text](![image](https://github.com/user-attachments/assets/09a37fae-60de-4768-892c-95fdd9e0974e)
-)
+![alt text](./images/compose.png)
 
 
 # Descrição da imagem mysql;
