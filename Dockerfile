@@ -19,7 +19,7 @@ EXPOSE 3000
 
 # sh é um shell Unix que é comum em sistemas Unix-like, como o Alpine Linux
 # -c é uma opção que diz ao shell para executar o comando que segue
+# npx prisma migrate dev --name init --schema=./prisma/schema.prisma && npm run dev é o comando que será executado quando o contêiner for iniciado 
 
 # Execute o aplicativo quando o contêiner for iniciado
 CMD ["sh", "-c", "npx prisma migrate dev --name init --schema=./prisma/schema.prisma && npm run dev"]
-
