@@ -14,10 +14,11 @@
  Criamos uma imagem app para a aplicação da API.
 
 # Forma de configuração e instalação;
+ Parar e remover os containers em execução
 ````bash
-npm i
+docker-compose down
 ````
-# Forma de execução;
+ Construir e executar novamente os containers
 ````bash
-node quiz_de_esportes.js
+docker-compose up --build
 ````
